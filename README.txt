@@ -3,9 +3,6 @@ Machine Perception Assignment
 
 Directory Structure:
 ---------------------
-Your submission folder should be named using the convention [lastname]_[firstname]_[studentID] 
-Example: trump_donald_12345678
-Please remove spaces, dashes and other non-alphabet characters in your lastname and firstname whilst creating this folder.
 
 Inside this folder, you must have the following structure:
 
@@ -27,12 +24,3 @@ Files:
   `python assignment.py task1 /path/to/images/for/task1`
   `python assignment.py task2 /path/to/images/for/task2`
 
-- task1.py, task2.py, task3.py, task4.py : Complete these files to implement the functionality for each task. Each task should save the output to the designated output folder.
-
-- requirements.txt : List of acceptable Python libraries for your project.
-
-What to Modify:
----------------
-1. Implement the methods in task1.py, task2.py, task3.py, and task4.py. 
-2. Ensure your output is written to the correct subfolders under the output/ directory.
-3. **Do not modify assignment.py**. It is already configured to handle the tasks and pass arguments correctly.
