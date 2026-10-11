@@ -1,0 +1,78 @@
+{
+ "task1": {
+  "seconds": 13.7,
+  "exit_code": 0,
+  "result": {
+   "expected": [
+    "lcd2.png",
+    "lcd4.png",
+    "lcd5.png",
+    "thermo1.png"
+   ],
+   "produced": [
+    "lcd2.png",
+    "lcd4.png",
+    "lcd5.png",
+    "thermo1.png"
+   ],
+   "files_match": true
+  }
+ },
+ "task2": {
+  "seconds": 7.0,
+  "exit_code": 0,
+  "result": {
+   "lcd2": true,
+   "lcd4": true,
+   "lcd5": true,
+   "thermo1": true
+  }
+ },
+ "task3": {
+  "seconds": 3.6,
+  "exit_code": 0,
+  "result": {
+   "digit_accuracy": 1.0,
+   "digits_correct": 21,
+   "digits_total": 21,
+   "thermo": {
+    "thermo1/t.txt": {
+     "expected": "18",
+     "got": "18",
+     "abs_error": 0
+    }
+   }
+  }
+ },
+ "task4": {
+  "seconds": 17.3,
+  "exit_code": 0,
+  "result": {
+   "img1": {
+    "expected": "thermo 18",
+    "got": "thermo 18",
+    "correct": true
+   },
+   "img2": {
+    "expected": "bpm 135,93,65",
+    "got": "bpm 135,93,65",
+    "correct": true
+   },
+   "img3": {
+    "expected": null,
+    "got": null,
+    "correct": true
+   },
+   "img4": {
+    "expected": "bpm 134,88,75",
+    "got": "bpm 134,88,75",
+    "correct": true
+   },
+   "img5": {
+    "expected": "bpm 134,89,72",
+    "got": "bpm 134,89,72",
+    "correct": true
+   }
+  }
+ }
+}

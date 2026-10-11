@@ -1,0 +1,10 @@
+
+# Student Information
+Surname: Kautish
+GivenNames: Lakshay
+StudentID: 20002772
+
+# Hyperparameters
+learning_rate: 0.001
+batch_size: 32
+num_epochs: 10

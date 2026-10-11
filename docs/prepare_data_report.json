@@ -1,0 +1,82 @@
+{
+ "train": {
+  "kept": 3353,
+  "dropped": 1153,
+  "orientation_counts": [
+   1459,
+   279,
+   281,
+   251,
+   303,
+   240,
+   279,
+   261
+  ]
+ },
+ "valid": {
+  "kept": 346,
+  "dropped": 84,
+  "orientation_counts": [
+   327,
+   1,
+   2,
+   0,
+   12,
+   0,
+   2,
+   2
+  ]
+ },
+ "test": {
+  "kept": 180,
+  "dropped": 35,
+  "orientation_counts": [
+   172,
+   0,
+   0,
+   0,
+   5,
+   0,
+   2,
+   1
+  ]
+ },
+ "seed_model_history": [
+  {
+   "epoch": 1,
+   "train_loss": 1.1317345005989075,
+   "train_acc": 0.75212,
+   "val_acc": 1.0
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.3290798178386688,
+   "train_acc": 0.99988,
+   "val_acc": 1.0
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.3122254296398163,
+   "train_acc": 0.99996,
+   "val_acc": 1.0
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.30650841605186463,
+   "train_acc": 0.99996,
+   "val_acc": 1.0
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.30371798439025877,
+   "train_acc": 1.0,
+   "val_acc": 1.0
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.30230002658843996,
+   "train_acc": 1.0,
+   "val_acc": 1.0
+  }
+ ]
+}
